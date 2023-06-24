@@ -1,0 +1,9 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px 0 25px;
+  }
+  
+  .checkout-icon{
+    font-size: 2em;
+  }

@@ -1,0 +1,15 @@
+.footer-container{
+    background-color: #3A4895;
+    color: white;
+    min-height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-container a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    margin-right: 3%;
+}
