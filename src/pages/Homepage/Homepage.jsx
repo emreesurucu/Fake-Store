@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react'
 import './Homepage.css'
 import axios from 'axios'
-import ProductCard from '../components/ProductCard/ProductCard'
+import ProductCard from '../../components/ProductCard/ProductCard'
+import Filter from '../../components/Filter/Filter'
 
 function Homepage() {
     const[products, setProducts] = useState([])
@@ -20,6 +21,7 @@ function Homepage() {
     )
   return (
     <div className='homepage-container'>
+        <Filter />
         <div className='items-container'>
             {
                 products.map(item => <ProductCard key={item.id} product={item} />)

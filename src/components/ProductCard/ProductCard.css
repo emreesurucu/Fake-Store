@@ -48,3 +48,11 @@
     font-weight: 800;
 
 }
+
+.product-card a{
+    background-color: #FFFFFF;
+    margin-left: 22%;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}

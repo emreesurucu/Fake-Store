@@ -1,9 +1,14 @@
 .header-container{
     display: flex;
     justify-content: space-between;
-    margin: 25px 30px 0 25px;
+    margin: 25px 40px 0 40px;
   }
   
   .checkout-icon{
     font-size: 2em;
+    color: #3A4895;
+  }
+
+  .header-container h1{
+    color: #3A4895;
   }

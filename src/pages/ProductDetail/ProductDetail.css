@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700;800&display=swap');
+
+.details-container{
+    display: flex;
+    background-color: #FAFAFA;
+    
+}
+
+.container-info{
+   display: flex;
+   align-items: center;
+   margin: 5% 15% 5% 15%;
+   background-color: #FFFFFF;
+   
+   
+}
+.container-info img{
+    width: 50%;
+    height: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+ }
+
+.right-info{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+    background-color: #FFFFFF;
+    
+}
+
+.right-info a{
+    background-color: #FFD814;
+    text-decoration: none;
+    font-family: inter;
+    color: #282828;
+    font-weight: 700;
+    width: 50%;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.right-info p{
+    background-color: #FFFFFF;
+}
+
+.right-info p:nth-child(1){
+    font-weight: 700;
+    font-family: inter;
+    margin-bottom: 31px;
+    
+}
+.right-info p:nth-child(2){
+    font-weight: 600;
+    font-family: inter;
+    margin-bottom: 24px;
+}
+.right-info p:nth-child(3){
+    font-weight: 600;
+    font-family: inter;
+    margin-bottom: 9px;
+}
+.right-info p:nth-child(4){
+    font-weight: 400;
+    font-family: inter;
+    
+}
+
+.price-container{
+    display: flex;
+    
+    
+}

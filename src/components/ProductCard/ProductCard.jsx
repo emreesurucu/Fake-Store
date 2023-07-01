@@ -6,7 +6,7 @@ function ProductCard({product}) {
   return (
     <div className='product-card'>
       <img src={product.image} />
-      <p>{product.title}</p>
+      <a href={`/Product-detail/${product.id}`}>{product.title}</a>
       <p>{product.category}</p>
       <div className='price-container'>
       <p>{product.price}</p>

@@ -1,0 +1,11 @@
+.checkout-container{
+    display: flex;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: center;
+}
+.filter-container p{
+    margin: 0 5% 0 5%;
+}
