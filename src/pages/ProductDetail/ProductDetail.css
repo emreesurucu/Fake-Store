@@ -30,7 +30,7 @@
     
 }
 
-.right-info a{
+.right-info button{
     background-color: #FFD814;
     text-decoration: none;
     font-family: inter;
@@ -74,4 +74,26 @@
     display: flex;
     
     
+}
+
+@media (max-width:768px){
+    .container-info{
+        display: flex;
+        flex-direction: column;
+        min-height: 85vh;
+        justify-content: center;
+     }
+
+     .container-info img{
+        margin-bottom: 5%;
+     }
+}
+
+@media (max-width:468px){
+    .container-info{
+        display: flex;
+        flex-direction: column;
+        min-height: 85vh;
+     }
+
 }

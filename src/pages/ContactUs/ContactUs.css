@@ -1,0 +1,57 @@
+.contact-container{
+    background-color: aliceblue;
+    min-height: 85vh;
+}
+
+
+.contact-container h1{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.contact-container form{
+    width: 80%;
+    margin: auto auto;
+    padding: 5%;
+    border: solid;
+    border-color: transparent;
+    border-radius: 25px;
+}
+form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea { 
+    width: 100%;
+    padding: 10px;
+    background-color:lightgrey;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  form input:focus,
+  form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(102, 92, 171, 0.3);
+  }
+  
+  form button[type='submit'] {
+    background-color: #5264C3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  form button[type='submit']:hover {
+    background-color: red;
+  }

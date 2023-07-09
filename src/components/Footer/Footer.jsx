@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer() {
   return (
     <div className="footer-container">
-        <a href="#">Contact Us</a>
+        <a href="/ContactUs">Contact Us</a>
     </div>
   )
 }

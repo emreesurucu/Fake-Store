@@ -1,11 +1,58 @@
-.checkout-container{
-    display: flex;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;700;800&display=swap');
 
 .filter-container{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5% 25% 0 25%;
+    color: #979797;
+
+    
 }
-.filter-container p{
-    margin: 0 5% 0 5%;
+
+.filter-container h2{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.checkout-container button{
+    background-color: #FFD814;
+    text-decoration: none;
+    font-family: inter;
+    color: #282828;
+    font-weight: 700;
+    width: 10%;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 2%;
+}
+
+.checkout-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 20px;
+}
+
+.modal-close-btn{
+    background-color: blue;
+    color: white;
+    padding: 8px 16px;
+}
+
+.modal-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+}
+
+@media (max-width:468px){
+    .checkout-container button{
+        width: 20%;
+    }
 }

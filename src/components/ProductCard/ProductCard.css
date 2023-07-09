@@ -17,9 +17,9 @@
     border-radius: 10px;
     border-color: #EFEFEF;
     padding: 5%;
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
+    width: 200%;
+    height: 120%;
+    margin-left: 50%;
     background-color: #FFFFFF;
 }
 
@@ -55,4 +55,17 @@
     text-decoration: none;
     color: black;
     font-weight: 800;
+}
+
+
+@media (max-width:768px) {
+    .product-card{
+        width: 25%;
+    }
+}
+
+@media (max-width: 468px){
+    .product-card{
+        width: 35%;
+    }
 }

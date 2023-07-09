@@ -1,14 +1,38 @@
 .header-container{
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 40px 0 40px;
-  }
-  
-  .checkout-icon{
-    font-size: 2em;
-    color: #3A4895;
-  }
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color:aliceblue;
+}
 
-  .header-container h1{
-    color: #3A4895;
-  }
+.header-container h1{
+  color: #3A4895;
+  background-color: aliceblue;
+}
+
+link{
+  text-decoration: none;
+}
+
+.cart-wrapper{
+  position: relative;
+}
+
+.cart-icon{
+  font-size: 3em;
+  background-color: aliceblue;
+  color: #3A4895;
+}
+
+.cart-number{
+  border-radius: 90%;
+  background-color:#F90505;
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: 8px; 
+  font-size: 16px;
+  padding: 5px 8px;
+}
